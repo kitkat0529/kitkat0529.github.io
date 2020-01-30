@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500|Noto+Serif+TC:300|Noto+Sans+TC:400');
+body {
+	box-sizing: none;
+	margin: 0;
+}
+h2 {
+	text-align: center;
+	font-size: 32px;
+	color: #fff;
+	padding-top: 5vh;
+	margin: 0;
+}
+#index-header{
+	width: 100%;
+	height: 100vh;
+	background: url('images/banner.jpg');
+	position: relative;
+}
+#index-nav {
+	width: 70%;
+	height: 100px;
+	/*background: red;*/
+	position: absolute;
+	bottom: 5vh;
+	left: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#index-nav a {
+	height: 100%;
+	width: 25%;
+}
+#index-nav li {
+	height: 100%;
+	list-style-type: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.story-btn {
+	background: url('images/btn_1.png');
+}
+.story-btn:hover {
+	background: url('images/btn_1_hover.png')
+}
+.charges-btn {
+	background: url('images/btn_2.png');
+}
+.charges-btn:hover {
+	background: url('images/btn_2_hover.png')
+}
+.reservation-btn {
+	background: url('images/btn_3.png');
+}
+.reservation-btn:hover {
+	background: url('images/btn_3_hover.png')
+}
+.other-btn {
+	background: url('images/btn_4.png');
+}
+.other-btn:hover {
+	background: url('images/btn_4_hover.png')
+}
+#first p {
+	text-align: center;
+	font-family: 'Noto Serif TC', serif;
+	margin: 0;
+	padding-top: 1vh;
+	color: #707070;
+}
+.title {
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#story {
+	position: relative;
+	overflow: hidden;
+}
+.story-content p,.tv-img p,#charges p,.charges-content,
+#reservation p {
+	text-align: center;
+	font-size: 16px;
+    line-height: 30px;
+	color: #D2cfcf;
+	font-family: 'Noto Serif TC', serif;
+}
+.mail-img {
+	width: 40vw;
+	height: 45vh;
+	background: url('images/story-1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+    position: absolute;
+    top: 30px;
+    right: -60px;
+}
+.tv-img {
+	width: 100vw;
+	height: 35vh;
+	background: url('images/story-3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-attachment: fixed;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#charges {
+	height: 65vh;
+	background-color: #09102a;
+	position: relative;
+	overflow: hidden;
+}
+footer {
+	position: relative;
+}
+footer ul li {
+	color: #fff;
+	margin: 1vh 0 0 ;
+}
+footer ul li:hover {
+	color: red;
+}
+.two-block {
+	padding: 5vh 0 0;
+	display: flex;
+	align-items: center;;
+	justify-content: space-around;
+}
+.copyright{
+	width: 100%;
+	position: absolute;
+	bottom: 2vh;
+	color : #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}
