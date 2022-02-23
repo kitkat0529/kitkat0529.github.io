@@ -14,6 +14,7 @@ h2 {
 #index-header{
 	width: 100%;
 	height: 100vh;
+	min-height: 700px;
 	background: url('images/banner.jpg');
 	position: relative;
 }
@@ -45,28 +46,28 @@ ul {
 	background-position: center center;
 }
 .story-btn {
-	background: url('images/btn_1.png');
+	background-image: url('images/btn_1.png');
 }
 .story-btn:hover {
-	background: url('images/btn_1_hover.png')
+	background-image: url('images/btn_1_hover.png')
 }
 .charges-btn {
-	background: url('images/btn_2.png');
+	background-image: url('images/btn_2.png');
 }
 .charges-btn:hover {
-	background: url('images/btn_2_hover.png')
+	background-image: url('images/btn_2_hover.png')
 }
 .reservation-btn {
-	background: url('images/btn_3.png');
+	background-image: url('images/btn_3.png');
 }
 .reservation-btn:hover {
-	background: url('images/btn_3_hover.png')
+	background-image: url('images/btn_3_hover.png')
 }
 .other-btn {
-	background: url('images/btn_4.png');
+	background-image: url('images/btn_4.png');
 }
 .other-btn:hover {
-	background: url('images/btn_4_hover.png')
+	background-image: url('images/btn_4_hover.png')
 }
 #first p {
 	text-align: center;
@@ -109,6 +110,7 @@ ul {
 .tv-img {
 	width: 100vw;
 	height: 35vh;
+	min-height: 300px;
 	background: url('images/story-3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -120,6 +122,7 @@ ul {
 }
 #charges {
 	height: 65vh;
+	min-height: 500px;
 	background-color: #09102a;
 	position: relative;
 	overflow: hidden;
